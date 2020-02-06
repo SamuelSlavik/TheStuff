@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'Cinzel', 'Dosis';height: auto;
+    line-height: 1.15;
+}
+body {
+    margin: 0;
+}
+* {-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust:100%;
+}
+* {
+    margin: auto;
+}
+a {
+    color: $yellow2;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color: $yellow2;
+}
+h3 {
+    color: $yellow2;
+    text-align: center;
+}
+.alignCenter {
+    text-align: center;
+}
+.lineHeightMedium {
+    line-height: 1.8em;
+}
+.align_center {
+    text-align: center;
+}
+ul li {
+    text-align: left;
+    float: none;
+}
+

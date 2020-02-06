@@ -1,0 +1,11 @@
+.logo {
+    width: 22%;
+    float: left;
+    left: 1%;
+    top: -5%;
+    position: absolute;
+    z-index: 110;
+    @media all and (max-width: $break-1){
+        display: none;
+    } 
+}

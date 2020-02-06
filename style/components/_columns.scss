@@ -1,0 +1,201 @@
+.column_4 {
+    background-color: $brown1;
+    height: auto;
+    padding: 2%;
+}
+.column_4 .flex-container {
+    width: 23%;
+    margin-left: 1.5%;
+    height: 600px;
+}
+.column_4 .clanok {
+    height: 460px;;
+}
+.column_3 {
+    width: 100%;
+    text-align: center;
+}
+.column_3 .flex-container {
+    width: 27%;
+    margin-left: 4.5%;
+    height: 600px;;
+}
+.flex-container .button {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.flex-container {
+    position: relative;
+    width: 23%;
+    background-color: $white1;
+    float: left;
+    margin-left: 1.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.flex-container_3 {
+    position: relative;
+    width: 27%;
+    background-color: white;
+    float: left;
+    margin-left: 4.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.flex-container_image{
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#QRcode {
+    width: 50%;
+}
+.text1 {
+    color:$defaultColor;
+    text-align: center;
+    border: 20px;
+    font-size: 16px;
+    margin: 2%;
+}
+.button {
+    background-color: $yellow3;
+    border: none;
+    color: $white1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.button:hover, div.wpforms-container-full .wpforms-form button[type="submit"]:hover {
+    background-color: $brown1;
+    color: $yellow3;
+}
+.height_2 {
+    height: 450px;
+}
+.div_light {
+    width: 100%;
+    height: auto;
+    padding: 2% 20% 3% 20%;
+    position: relative;
+    line-height: 25px;
+}
+
+/* Bottom Icons */
+.icons_bottom_left {
+    margin-top: 2%;
+    z-index: 1;
+    text-align:center;
+    width: 40%;
+    padding-left:0 !important;
+}
+.icons_bottom_right {
+    z-index: 1;
+    margin-top: 2%;
+    float: right;
+    width: 40%;
+    padding-right: 5%;
+}
+.icons_bottom {
+    width: 100%;
+    display: flex;
+}
+#wifi {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1%;
+}
+#battery {
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#card {
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#parking {
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fresh {
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#recykle {
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#nosmoking {
+    height: 60px;
+    width: 60px;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#kidfriendly {
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Banner*/
+.div_banner {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.div_banner_img {
+    width: 50%;
+    height: 100%;
+}
+.div_banner_text {
+    width: 50%;
+    vertical-align: center;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding: 12% 4% 2% 4%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.height_1 {
+    height: 650px;
+}
+
+

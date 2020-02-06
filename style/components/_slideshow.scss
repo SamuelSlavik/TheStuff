@@ -1,0 +1,127 @@
+.hidden {
+    display: none;
+}
+.container_slideshow {
+    margin: 0;
+    width: 100%;
+    height: 90vh !important;
+    background-color: $brown1;
+    box-sizing: border-box;
+}
+#slideshow {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh !important;
+}
+#slideshow > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height:90%;
+    width: 84%;
+    box-sizing: border-box;
+}
+#slideshow img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.arrow {
+    width: 40px;
+    font-size: 64px;
+    color: $white1;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+    font-weight: bold;
+    padding: 0 10px;
+    position: absolute;
+}
+.arrow:hover {
+    color: $yellow1;
+}
+.arrowL {
+    left: 2%;
+    z-index: 1000;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.arrowR {
+    right: 2%;
+    z-index: 1000;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.aktuality {
+    background-color: $brownTransparent2;
+    width: 100%;
+    height: auto;
+    font-family: 'Cinzel', serif;
+    font-size: $primaryFontSize;
+    color: $white1;
+    text-align: center;
+    position: absolute;
+    padding: 25px;
+    padding-top: 5px;
+    border: 15px;
+    bottom: 0%;
+    z-index: 80;
+}
+.aktuality a {
+    color: $yellow2;
+}
+.aktuality h3 {
+    padding-top:0;
+    margin-top:0;
+}
+
+@media screen and (max-width: 768px) {
+    .container_slideshow
+    {
+        height:60vh !important;
+    }
+    #slideshow
+    {
+        height:60vh !important;
+    }
+}
+
+@media only screen and (max-width: 798px) {
+    .nav-mobile {
+        display: block;
+
+    }
+    #slideshow{
+    }
+    #slideshow > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height:auto;
+        width: 100%;
+    }
+    .aktuality
+    {
+        position:relative;
+    }
+    .arrow
+    {
+        top: 35% !important;
+    }
+    .container_slideshow
+    {
+        height:50vh !important;
+        position: relative;
+    }
+    #slideshow
+    {
+        height:70vh !important;
+    }
+}
+
+
+

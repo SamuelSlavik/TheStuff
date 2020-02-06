@@ -1,0 +1,63 @@
+.calendarWrapper {
+    background-color: $brown1;
+}
+.ui-widget {
+    font-family: 'Cinzel', 'Dosis';height: auto;
+}
+.fc-center h2 {
+    text-align: center;
+    color: $white1;
+    font-size: 3em !important;
+    font-family: 'Cinzel', 'Dosis';height: auto;
+}
+.fc-right {
+    opacity: 0;
+}
+.fc-today-button {
+    opacity: 0;
+}
+.ui-widget-header {
+    background: $yellow2 !important;
+    border: none !important;
+}
+.fc td {
+    background: $white1 !important;
+}
+.fc-today {
+    color: $yellow1 !important;
+}
+.fc-day-number {
+    text-align: center !important;
+    font-weight: bold;
+}
+.ui-state-highlight {
+    border: none !important;
+    border-top: 1px solid $defaultColor !important;
+}
+.ui-widget-content {
+    border: 1px solid $defaultColor;
+}
+.fc-row .fc-content-skeleton td {
+    border-color: $defaultColor !important;
+}
+.fc-event {
+    border: none !important;
+    background: none !important;
+    color: $yellow2 !important;
+}
+.fc-time {
+    display: none;
+}
+.fc-title {
+    font-weight: bold !important;
+    text-align: center;
+    font-size: 1.5em !important;
+}
+.fc-content {
+    text-align: center;
+    overflow: auto;
+    white-space: normal !important;
+}
+.fc-view-container {
+    box-sizing: border-box !important;
+}

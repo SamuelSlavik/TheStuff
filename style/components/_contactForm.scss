@@ -1,0 +1,31 @@
+.conteactForm {
+    width: 100%;
+}
+.contactForm .textTypeInput, textarea, select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 1%;
+}
+.contactForm input[submit] {
+    width: auto;
+}
+.doubleLayout {
+    display: flex;
+}
+.doubleLayout input {
+    width: 48%;
+}
+.doubleLayout .leftInput {
+    margin-right: 4%;
+}
+.checkboxDiv label, input {
+    display: inline;
+}
+.formDetails {
+    display: none;
+}

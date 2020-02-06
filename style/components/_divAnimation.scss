@@ -1,0 +1,63 @@
+.div-animation {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    @media all and (max-width: $break-1){
+        display: none;
+    }
+}
+.div-animation_div {
+    width: 50%;
+    vertical-align: middle;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    margin-top: 47px;
+    -o-transition:1s ease-out 0.2s;
+    -ms-transition:1s ease-out 0.2s;
+    -moz-transition:1s ease-out 0.2s ;
+    -webkit-transition:1s ease-out 0.2s;
+    transition:1s ease-out 0.2s;
+}
+.div-animation_div:hover {
+    background-color: rgb(76,58,0, 0.3);
+}
+.div-animation_visible1 {
+}
+.div-animation_visible2 {
+}
+.div-animation_div_invisible {
+    width: 100%;
+    height: 100%;
+    vertical-align: center;
+    background-color: rgba(76,58,0,1);
+    color: $white1;
+}
+.div-animation_invisible1 {
+    transition: opacity 2s ease-out;
+    opacity: 0;
+    display: none;
+}
+.div-animation_invisible2 {
+    display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    overflow: hidden;
+}
+.div-animation_centered {
+    margin: auto;
+    padding: 0% 10% 0% 10%;
+}
+.div-animation_h1 {
+    font-size: 60px;
+    font-family: 'Cinzel', serif;
+}
+#display-none_1 {
+    display: grid;
+    width: 100%;
+}
+#display-none_2 {
+    display: grid;
+    width: 100%;
+}

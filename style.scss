@@ -1,0 +1,28 @@
+/*
+Theme Name: Colloquium-theme
+Author: Samuel Slávik
+Version: 2.0
+*/
+
+@import "style/variables";
+
+@import "style/default";
+@import "style/content";
+
+@import "style/components/navigation";
+@import "style/components/footer";
+
+@import "style/pages/documents";
+
+@import "style/components/logo";
+@import "style/components/slideshow";
+@import "style/components/topIcons";
+@import "style/components/titles";
+@import "style/components/columns";
+@import "style/components/divAnimation";
+@import "style/components/modalWindows";
+@import "style/components/calendar";
+@import "style/components/contactForm";
+@import "style/components/scrollbar";
+
+@import "style/responsive";
